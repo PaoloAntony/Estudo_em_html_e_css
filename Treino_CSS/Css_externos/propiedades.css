@@ -1,0 +1,273 @@
+
+
+body{
+    background-color: white;
+/*Esse background musa a cor do fundo */
+}
+
+
+
+.exemplo-img-background {
+    height: 300px;
+    background-image: url("../img/pexels-jakub-novacek-924824.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+
+    /* se voce colocar cover no lugar do contain ele se adapta a pagina
+        se voce colocar contain ele repete a imagem
+      o repeat serve pra ele repetir a imagem ou nao 
+      o postiion determina a posição que ele quer que 
+       seja pega*/
+}
+
+
+.cor_vermelho{
+    color: red
+    /* propiedade color pra mudar a cor *
+    pode usar o color picker*/
+
+}
+
+.borda{
+    color:aqua;
+    border-left: 5px solid red;
+    border-right:5px solid blue;
+    border-top: 5px solid yellowgreen;
+    border-bottom: 5px solid orange;
+    border-radius: 30px;
+    background:black;
+    text-align:  center;
+
+    /*posso passar so um border tb pra tudo e cabosse*/
+    /*esse border radius arredonda a borda*/
+
+    /*solid = borda solida
+    dotted = borda com pontinhos
+    dashed = borda com tracinhos
+    double = duas bordas 
+    groove = efeito mais 3d
+    ridge  = ??
+    inset  =  borda por dentro
+    outset = por fora
+    hidden = oculta
+    */
+}
+
+.margem{
+
+    margin-top: 150px;
+    margin-bottom: 150px;    
+    margin-left: 150px;
+    margin-right: 150px;
+
+    /* cria uma margem topo,baixo,esqueda e direira */
+    /* ele também aceita os quatro parametros em um só
+    ordem = cima,direita, baixo, esquerda*/
+}
+
+.padding{
+    padding-top: 150px;
+    padding-bottom:150px ;
+    padding-right: 150px;
+    padding-left: 150px;
+    border: 1px solid black;
+    background: black;
+    color: white
+
+    /* coloquei outros parametros apenas para explicar.
+    O padding é um preenchimento de dentro pra fora
+    também podem ser declaradas de uma vez so */
+}
+
+.botao {
+    margin-left: 40%;
+    background: black;
+    color: red;
+    padding: 10px ;
+    border-radius: 20px;
+    text-decoration: none;
+
+   /*exemplo de como fazer um botao*/ 
+}
+
+.botao:hover{
+    background:pink
+/*Esse botão é pra mostrar o sobre,no caso
+oque esta sobre o mouse, quando passa o mouse
+a cor muda */
+}
+
+
+
+.alt_e_larg {
+    width:300px;
+    height: 150px;
+    background:rgb(145, 33, 250)
+    /*max-width limita o tamanho da tela ao maximo de px que 
+    vc pediu*/
+}
+
+.texto{
+    color: red;
+    text-align: center;
+    text-decoration:line-through;
+    text-transform: uppercase;
+    text-indent: 60px;
+    letter-spacing: 5px;
+    word-spacing:15px;}
+
+/* text decoration para obviamente decorar o text*/
+/* text transform para aumentar  o tamanho do texto*/
+/* ident mudar a identaçao do texto */
+/* letter-spacing: separar linhas */
+/* line- height separar paragradfos */
+/* espaçamento entre palavras */
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+/* google fontes muito bom para pegar fonts sem copyright
+importa no começo do css e depois chama no font family */
+
+
+a.botao1{
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 6px solid greenyellow;
+}
+/*Especificando que isso so funciona com um botao do tipo link
+por isso o a. */
+
+a.botao1:hover{
+    background: red;
+    border: 6px solid black;
+}
+
+/* hover serve para quando passar o mouse, no caso um e  como
+se ve o botao o outro é quando se passa o mouse */
+
+a.botao2{
+    text-decoration: none;
+    padding: 10px;
+    border:1px double blue;
+    color: blue }
+
+a.botao2:hover{
+    text-decoration: underline;
+    padding: 8px;
+    background: blue;
+    color: white }
+    
+
+a.botao3{
+    color:black;
+    text-decoration: none;
+}
+
+a.botao3:hover{
+    border-bottom:5px solid red
+}
+
+a.botao4{
+    text-decoration: none;
+    color: blue;
+    font-size:18px;
+}
+
+a.botao4:hover{
+    font-size:22px;
+    font-weight:bold;
+}
+
+
+a.botao5{
+    cursor:wait;
+}
+
+/* posso no caso determinar o comportamento do cursor*/
+
+
+li{
+    display: inline;
+}
+/* existem os displays em linha e os blocos posso especificar
+oque eu quero */
+
+.ex1{
+    max-width: 800px;
+}
+/* a largura se ajusta a tela */
+
+.ex2{
+    width: 800px;
+}
+
+.container{
+    display: inline-block;
+    background: blue;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+
+.div1{
+    width: 30%;
+    height: 100px;
+    background: yellow;
+    display: inline-block;
+    position: relative;
+    left:20px;
+    
+   }
+   /* posicionamento relativo aonde ele estava*/
+.div2{
+    width: 30%;
+    height:100px;
+    background: rgb(255, 0, 221);
+    display: inline-block;
+    position: sticky;
+    top: 10;
+   /* z-index: -1;
+    /* esse z-index mexe com as camadas */
+    /*position sticky acompanha um pouco */
+    
+ 
+}
+.div3{
+    width: 30%;
+    height:100px;
+    background:red;
+    display:inline-block;
+    position: absolute; 
+   top:150px;
+    right:50%
+    /*z-index: 3;*/
+   
+}
+
+
+.whats{
+    background: green;
+    color: white;
+    width:150px;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    /* position fixed fica fixado */
+}
+
+/* clases sao mais importantes que especificadores 
+ids sao mais fortes que classes 
+seletor nao é mais forte que ninguem
+seletor com classe é mais forte que classe
+classe com seletor nao é mais forte que classe
+!important ignora essas regras */

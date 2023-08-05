@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- A tag lang escolhe a linguagem  no caso pt-br -->
+<html lang="pt-br">
+
+<!-- A tag head é onde vão estar as especificações do algoritmo que nao vao aparecer na tela-->
+
+<head>
+    <!--Isso é um elemento oque esta dentro é o conteúdo e nos extremos são as tags. Ainda podemos utilziar atributos para essa tag-->
+    <!--<paolo> blablala</paolo>-->
+
+    <!-- Essa tag faz com que todos os caracteres sejam compatíveis-->
+    <meta charset="UTF-8">
+    <!-- Essa tag determina que o site seja compativel com versões mais antigas (geralmente no fifelox a compatibilidade não é boa)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Essa tag faz com que a tela se adapte de acordo com o dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Essa tag escreve oque vai ter no site(quando enviado o link essa descrição aparece)-->
+    <meta name="description" content="Esse é um site de testes">
+    <!--Essa tag pega palavras chave para deixar de mais facil busca pelo navegador-->
+    <meta name="keywords" content="conteudo,programação,html">
+    <!--Tag pra colocar o autor do Site-->
+    <meta name="author" content="Paolo Antony">
+    <!-- Titulo que vai aparecer na Aba do Documento-->
+    <title>Teste de Site</title> 
+</head>
+
+<!-- body é tudo oque vai aparecer na tela do site -->
+<!-- style é um atributo para escoher a cor do site-->
+
+<body style="background:rgba(126, 111, 92, 0.644)">
+
+    <!--Tag usada para escrever títulos(existem 6 de 6 tamanhos diferentes)-->
+    <h1 > Teste de Site </h1>
+    <!--Tag usada para fazer uma linha de espaçamento na tela-->
+    <hr>
+    <h2> Texto 1</h2>
+    <!--Tag usada para introduzir um parágrafo-->
+    <p>Lorem, ipsum dolor sit amet <small>pequeno</small> a dipisicing elit. Beatae <b>negrito</b> blanditiis perferendis alias similique<br> 
+    nobis, atque dolores <u>sublinhado</u> adipisci modi doloribus <i>italico</i> earum veritatis odio a quia sint <del>riscado</del> Quam, dolorem.<br>
+    Lorem ipsum dolor, valor exponencial 10<sup>9</sup>sit amet consectetur adipisicing <mark>marcar</mark> elit. Fuga impedit sapiente<br>
+    sunt! Nisi velit error quod nulla mollitia est amet cupiditate quidem eligendi facere.</p>
+    <!-- A tag <br> pula uma linha-->
+    <br>
+
+    <h2>Especicicações </h2>
+    <p>Como pode ver acima são recursos de texto. small = deixa a letra pequena, b = negrito, u = sublinhado, i = italico, del = riscado, <br>
+    sup = um recurso para exponencial 10 a nona no caso e mark = para marcar uma palavra do texto</p>
+    
+    <h2>Outros recursos de texto:</h2>
+    <!-- Essa tag explica uma abreviação-->
+    <p><abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr></p>
+    <!-- Essa tag mostra um endereço em texto (ver exemplo no site)-->
+    Introduzir um endereço: <address>Rua jardim dos pinhais 340</address>
+    <!-- A tag cite introduz uma citação a tag q mostra sobre aspas a citação -->
+    <p>No filme <cite>Clube da Luta</cite> com Brad Pitt, ele comenta:<q>As coisas que você consome acabam consumindo vc</q>
+    <!-- A tag blockquote formata uma citação de uma parte do texto-->
+    <blockquote>sunt! Nisi velit error quod nulla mollitia est amet cupiditate quidem eligendi facere.</blockquote>
+    <!-- Muda de tras pra frente as palavras -->
+    <bdo dir="rtl">oi rato</bdo>
+
+    <h1> Links</h1>
+    <!-- A tag a e o atributo href são utilizadas para introduzir um link-->
+    <!-- O atributo target mostra pra onde a pagina deve ir. No caso blank ele vai abrir outra página sem sair da que estava antes(ver exemplo) obs: ../ volta uma pasta -->
+    <a href = "Imagens.html" target="_blank">Acesso a aba de imagens</a>
+    <br>
+    <a href = "tabela.html" target="_blank">Acesso a aba de tabelas</a>
+    <br>
+    <a href = "formulario.html" target ="_self">Acesso a aba dos formulários</a>
+    <br>
+    <a href = "audiovisual.html" target ="_self">Acesso aos audios </a> 
+    <br>
+    <a href = "div_e_semantico.html">Acesso ao Div e Semântico</a>
+    <h2>Frames(colocando uma página dentro da outra)</h2>
+    <iframe src = "Imagens.html" width = "500" height = "500" title = "Meu inframe "></iframe>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+<!--A tag form é para utilizar em formulários-->
+<form>
+    <!-- A tag label é utilizade para introduzir um formulário-->
+    <!-- O atributo for é utilizado para dizer do que se trata o formulario-->
+    <!-- O atributo id é utilizado para identificar a informação e criar a caixa onde serão inseridos os dados-->
+    <!-- O atributo type mostra oque vai ser introduzido pelo usuário--> 
+    <!-- O atributo placeholder coloca a marca d'agua na caixinha -->
+    <!-- A tag input é utilizada para que o usuário introduza seus dados (ela não tem fechamento)--> 
+    <label for = "campo_nome">Nome:</label> <br>
+    <input id = "campo_nome" type="text" placeholder = "Digite seu nome:">
+    <br>
+    <label for = "campo_sobrenome">Sobrenome:</label> <br>
+    <input id = "campo_sobrenome:" type="text" placeholder = "Digite seu sobrenome"> 
+    <br>
+    <label for = "campo_senha" >Senha:</label> <br>
+    <input id = "campo_senha" type = "password" placeholder = "Digite sua senha">
+    <br>
+    <label for = "campo_email">Email:</label><br>
+    <input id = "campo_email" type = "email" placeholder = "Digite seu email">
+
+    <h2>Formulario de Marcação:</h2>
+    <!-- A tag Name é utilizad para colocar os termos lado a lado(no caso todos são animais)-->
+    <!-- A tag Value é utilizada para mostrar o valor que a resposta oferece (o valor pode ser qualquer um que atribuirmos)-->
+    <input type="radio" id="dog" name="animal" value="Cachorro">
+    <label for="dog">Cachorro </label>
+    <br> <br>
+    <input type="radio" id="cat" name="animal" value=" Gato">
+    <label for="cat">Gato </label>  
+    <br><br>
+    <input type="radio" id="bird" name="animal" value="Passáro">
+    <label for="bird">Passáro</label>
+    <br><br>
+
+    <h2> Formulário de Verdadeiro ou Falso:</h2>
+
+    <input type = "checkbox" name="item1" value = "TV">
+    <label  for = "item1">TV</label> <br>
+
+    <input type = "checkbox" name="item2" value = "Geladeira">
+    <label for = "item2">Geladeira</label><br>
+
+    <h2> Formulário de Escolhas </h2>
+
+    <h4>Escolha uma cor:</h4>
+    <!-- A tag select é para a escolha de algo (no caso as cores)--> 
+    <select name="cores">
+    <!-- A tag option é usada para modificar algo-->
+    <!-- O atributo selected disabled value desabilita o valor de selecione uma cor nao podendo marcar a opção-->
+        <option selected disabled value="">Selecione uma cor </option>
+        <option value="Vermelho">Vermelho</option>
+        <option value="Amarelo">Amarelo </option>
+        <option value="Azul">Azul</option>
+    </select>
+
+    <h2>Caixa de texto:</h2>
+    <!-- A tag textarea é usada para  introduzir a caixa de texto-->
+    <!-- O atributo rows é a altura e cols a largura da caixa-->
+    <textarea name="mensagem" placeholder="Digite aqui" rows="0" cols="100"></textarea>
+    <br><br>
+    <!-- um botão de envio o formulário-->
+    <input type="submit" value="Enviar Formulario ">   
+</form>
+
+<!-- A tag button cria um botão(dependendo da sua identação ele pode ser funcional ao todo (igual o botão do formulário))-->
+<button>clique aqui </button>
+<br> <br>
+
+<a href ="Explicaçãohtml.html">Voltar pra página inicial</a>
+</body>
+</html>

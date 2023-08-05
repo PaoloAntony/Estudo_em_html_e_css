@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css interno</title>
+
+    <!-- No css interno voce cria uma tag no caso a style-->
+    <!-- Passa atributos, no caso body e h1-->
+    <!-- Entretanto se voce passar um atributo inline e um interno-->
+    <!-- O inline prevalece -->
+    <!-- Passei a cor azul no interno e verde no inline e o inline prevaleceu-->
+    <!-- e como eu coloquei o estilo apenas nessa pagina ele so funciona aqui por isso-->
+    <!-- é interno-->
+<style>
+        body{
+           background: yellow 
+        }
+        h1 {color:blueviolet;
+        font-size: 88px}
+
+        h2{color:blue}
+    </style>
+
+</head>
+
+<body>
+    <h1>Exemplo 1</h1>
+    <h2 style = color:green>Exemplo 2</h2>
+</body>
+</html>

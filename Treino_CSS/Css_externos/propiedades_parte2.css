@@ -1,0 +1,32 @@
+
+
+/*.exemplo{
+    background: blue;
+    color: gray;
+    height:150px;
+    overflow:auto;
+    width: 1200px;
+}
+
+body{
+    overflow-x:hidden;
+}
+/*overflow serve pra ver o comportamento de um coteudo no elemento ele 
+estabiliza de acordo com oque voce coloca ver exemplo do texto abaixo */
+
+.container{
+    border:1px solid black;
+    overflow:auto
+}
+
+.container img{
+    float:left;
+    margin-right: 20px;
+   
+}
+
+
+/*utilizar o float para determinar um posicionamento dentro de um elemento */
+/*exemplo fazer um link pra login na direita eu uso um float left e cabosse  */
+
+

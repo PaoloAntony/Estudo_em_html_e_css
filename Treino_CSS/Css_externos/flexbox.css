@@ -1,0 +1,33 @@
+.flex-pai{
+    background: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;
+
+    /* flex flow junta os dois*/
+    /* justify content eu 
+    /* com o aling-items eu posso controlar o funcionamento dos itens dentro do 
+    flexbox */
+    /* é como se esses dois fossem largura e altura */
+    /* content é todo o conteudo */
+}
+
+
+
+.flex-pai div{
+    flex-grow: 1;
+    background: white;
+    border: 1px solid black;
+    margin:5px;
+    padding:30px;
+    text-align: center;
+   
+    /*flex grow se ajusta uniformemente */
+    /* da pra mudar a flexibildidade de 1 só de acordo
+    com o ajuste da página */
+}
+

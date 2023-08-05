@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
+    
+}
+
+body *{
+    box-sizing: border-box;
+}
+/* A margem no body ja vem por padrao em 8 pixels tanto no eixo Y quanto
+no X */
+
+.main_login{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(34, 7, 49);
+    display: flex;
+    justify-content: center; /* eixo X */
+    align-items: center; /* eixo Y */
+}
+/* 100 vw == 1000px
+   1vh == 10px 
+   viewport widht viewport right */
+
+   
+
+
+.left_login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left_login >h1{
+    color: #1dc58d;
+    font-size: 30pt;
+    font-weight: 300;
+}
+
+.img_celular{
+    width: 33vw;
+}
+
+.right_login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(67, 13, 88);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgb(22, 17, 31);
+}
+
+.card_login >h1{
+    color: #1dc58d;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius:10px;
+    padding: 15px;
+    background: #5b3b70;
+    color: rgb(200, 223, 223);
+    font-size: 12pt;
+    box-shadow: 0px 10px 20px rgb(47, 32, 70);
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.textfield> label{
+    color:rgb(215, 222, 228);
+    margin-bottom: 10px
+}
+
+
+.textfield > input::placeholder{
+    color: rgb(163, 173, 173);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline:none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #70448d;
+    background: #1dc58d;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgb(47, 32, 70);
+    
+}
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    .main_login{
+        flex-direction: column;
+    }
+    .left_login >h1{
+        display: none;
+    }
+    .left_login{
+        width: 100%;
+        height: auto;
+    }
+
+    .right_login{
+        width: 100%;
+        height: auto;
+    }
+    .img_celular{
+        width: 50vw
+    }
+    .card_login{
+        width: 90%;
+    }
+}

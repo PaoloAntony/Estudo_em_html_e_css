@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main_login{
+   width: 100vw;
+    height: 100vh;
+    background: rgb(60, 57, 61);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.login_box{
+   background: rgb(119, 103, 103);
+   border-radius: 6px;
+   width: 400px;
+   padding: 40px; 
+}
+
+.login_box >h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.usuario_senha{
+    position: relative;
+    
+}
+
+.usuario_senha >input{
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(236, 230, 230);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.usuario_senha> input::placeholder{
+    color: rgb(188, 219, 219);
+}
+
+.link{ 
+    display: flex;
+    flex-direction: column;
+
+}
+

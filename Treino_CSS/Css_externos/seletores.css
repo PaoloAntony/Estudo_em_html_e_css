@@ -1,0 +1,53 @@
+body{background:rgb(151, 168, 133)
+}
+
+/* seletor para tag:
+Aplica tudo pra todas as tags */
+
+
+.centro{text-align: center}
+
+.azul{color:blue}
+
+/* Seletor para classe:
+Pega uma classe e especifica oque vai ser colocado
+(geralmente pra algo mais padronizado) */
+
+/* As classes sao utlizadas para separar oque voce quer
+fazer com cada tag*/
+
+/*Posso usar varias classes em uma so tag*/
+
+#teste {color:rgb(145, 33, 250); font-size: larger;}
+
+/*seletor id:
+Oque tiver esse id vai receber a propiedade
+(id nao pode comecar com numero)
+(identificadores sao unicos)*/
+
+
+*{padding: 20px;}
+
+
+/* Resumindo tudo:
+
+Para utilizar atributos EM TUDO UNIVERSALMENTE
+*{}
+
+Para utilizar atributos EM TUDO QUE ESTA NA TAG
+nomedatag {} ex body{}
+
+Para utilizar atributos PADRÕES: Cor,tamanho,etc
+HTML= class = "nomedaclasse "
+CSS = .nomedaclasse {}
+
+Para utilizar atributos Especificos:
+
+HTML = id=nomedoid
+CSS = #nomedoid */
+
+h2,h3{color:black ; text-align: center;}
+
+/*tambem podemos fazer agrupamentos
+de seletores minimizando codigo */
+

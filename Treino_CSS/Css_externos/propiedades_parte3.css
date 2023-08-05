@@ -1,0 +1,82 @@
+.img1{
+    opacity: 0.9;
+}
+
+.img2{ opacity:0.7;
+
+}
+
+.img3{opacity:0.3;
+    
+}
+
+.img1:hover{
+    opacity:0.5
+}
+
+/* da pra fazer em botoes também */
+
+ul{
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float:left;}
+
+li a,.dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration:none;
+    text-align:center;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background: green;
+}
+
+li.dropdown{
+    display:inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background: white;
+    width: 150px
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    text-align: left;
+    border:1px solid;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+    
+}
+
+#gradiente{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(red,blue,green);
+    box-shadow: 5px 5px 15px;
+    /* o to passa de onde vai o começo da cor usar deg pra 
+    escolher os graus
+    radial é o efeito em circulos se usa porcentagem
+    linear em linha  */
+
+}
+
+.shadow{
+    text-shadow: 2px 2px 5px red, 2px 2px 5px yellow;
+}
+
+ 
